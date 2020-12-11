@@ -10,7 +10,7 @@ class LinearEquation
             throw new tsarevException("Equation doesn`t exist. \n\r");
         }
 
-        MyLog::Instance()::log("It's linear equation. \n\r");
+        MyLog::log("It's linear equation. \n\r");
         return $this->x = [$b * (-1) / $a];
     }
 
