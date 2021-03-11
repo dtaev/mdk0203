@@ -1,0 +1,19 @@
+{
+    "name": "dtaev/mdk0203",
+    "type": "project",
+    "license": "MIT",
+    "repositories": 
+    [
+        {
+            "type": "git",
+            "url": "https://github.com/dtaev/mdk0203-lib.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/rok9ru/trpo-core.git"
+        }
+    ],
+    "require": {
+        "dtaev/mdk0203-lib": "^1.0"
+    }
+}
