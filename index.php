@@ -3,14 +3,7 @@
 ini_set("display_errors", 1);
 error_reporting (-1);
 
-require 'core/EquationInterface.php';
-require 'core/LogInterface.php';
-require 'core/LogAbstract.php';
-
-require 'tsarev/LinearEquation.php';
-require 'tsarev/QuadraticEquation.php';
-require 'tsarev/MyLog.php';
-require 'tsarev/tsarevException.php';
+require __DIR__.'/vendor/autoload.php';
 
 $equation = new tsarev\QuadraticEquation();
 try
